@@ -45,13 +45,13 @@ document.body.appendChild(instructionsContainer)
 
 
 // lock camera controls on mouseclick
-window.addEventListener( 'click', function () {
-    globals.CONTROLS.lock();
-} );
+//window.addEventListener( 'click', function () {
+    //globals.CONTROLS.lock();
+//} );
 
-globals.CONTROLS.addEventListener('lock', () => {
-    hideInstructions()
-})
+//globals.CONTROLS.addEventListener('lock', () => {
+    //hideInstructions()
+//})
 
 // window.addEventListener("keydown", (event) => handleKeypress(event, appData), false)
 let stats = new Stats();
